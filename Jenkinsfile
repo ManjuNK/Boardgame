@@ -17,7 +17,7 @@ pipeline {
     stages {     
         stage('Git Checkout') {
             steps {
-               git branch: 'main', credentialsId: 'git-token', url: 'https://github.com/ManjuNK/Boardgame.git'
+               git branch: 'main', credentialsId: 'git-token', url: 'https://github.com/ManjuNK/boardgame.git'
             }
         }
         
